@@ -152,8 +152,18 @@ img {
   background: transparent;
 }
 
-.header.bg{
+.header .container{
+    margin-top: 0rem;
+    transition: 0.5s ease;
+    padding: 1.5rem;
+}
+
+.header.bg .container{
     background: var(--dark);
+    margin-top: 5rem;
+    padding: 1.5rem 3rem;
+    transition: 0.5s ease;
+    border-radius: 20rem;
 }
 
 .header .header_wrapper {
